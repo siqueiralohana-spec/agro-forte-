@@ -1,83 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Agro Forte | Futuro Sustentável</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <div class="logo">AGRO FORTE</div>
+    <header>
+        <h1>🌱 Agro Forte: Futuro Sustentável</h1>
+        <p>Tecnologia, produção e preservação para as próximas gerações.</p>
+    </header>
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#producao">Produção</a>
-        <a href="#tecnologia">Tecnologia</a>
-        <a href="#futuro">Futuro</a>
-    </nav>
-</header>
+    <section class="banner">
+        <h2>O Agro Move o Mundo</h2>
+        <p>Produzir mais alimentos com responsabilidade ambiental é o caminho para um futuro sustentável.</p>
+        <button onclick="mostrarMensagem()">Saiba Mais</button>
+    </section>
 
-<!-- HERO -->
-<section id="inicio" class="hero">
-    <div class="overlay"></div>
+    <section class="cards">
+        <div class="card">
+            <h3>🌾 Produção Sustentável</h3>
+            <p>Uso eficiente dos recursos naturais para aumentar a produtividade.</p>
+        </div>
 
-    <div class="hero-content">
-        <h1>Cultivando hoje.<br>Preservando amanhã.</h1>
-        <p>
-            O equilíbrio entre produção agrícola e preservação ambiental define o futuro do planeta.
-        </p>
+        <div class="card">
+            <h3>🚜 Tecnologia no Campo</h3>
+            <p>Agricultura de precisão e inovação para reduzir desperdícios.</p>
+        </div>
 
-        <a href="#producao" class="btn">Explorar</a>
-    </div>
-</section>
+        <div class="card">
+            <h3>🌳 Preservação Ambiental</h3>
+            <p>Conservação do solo, água e biodiversidade.</p>
+        </div>
+    </section>
 
-<!-- PRODUÇÃO -->
-<section id="producao" class="section dark">
-    <h2>Produção responsável</h2>
-    <p>
-        O agronegócio moderno mostra que é possível produzir mais alimentos
-        sem destruir a natureza, usando tecnologia e planejamento inteligente.
-    </p>
-</section>
+    <section class="contador">
+        <h2>Meta de Árvores Plantadas</h2>
+        <p id="numero">0</p>
+        <button onclick="contar()">Plantar Árvore</button>
+    </section>
 
-<!-- FRASE IMPACTO -->
-<section class="quote">
-    <h2>
-        “O campo que alimenta o mundo também pode ser o que mais preserva o planeta.”
-    </h2>
-</section>
+    <footer>
+        <p>Projeto Agro Forte - Futuro Sustentável © 2026</p>
+    </footer>
 
-<!-- TECNOLOGIA -->
-<section id="tecnologia" class="section light">
-    <h2>Tecnologia no campo</h2>
-    <p>
-        Drones, sensores e inteligência artificial tornam a agricultura mais eficiente,
-        produtiva e sustentável.
-    </p>
-</section>
-
-<!-- FUTURO -->
-<section id="futuro" class="section highlight">
-    <h2>Futuro sustentável</h2>
-    <p>
-        Produzir sem destruir. Crescer sem esgotar. Esse é o caminho do agro moderno.
-    </p>
-</section>
-
-<!-- RODAPÉ -->
-<footer>
-    <h3>Agro Forte</h3>
-    <p>Equilíbrio entre produção e meio ambiente</p>
-    <span>© 2026</span>
-</footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
